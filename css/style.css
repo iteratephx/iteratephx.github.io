@@ -1275,17 +1275,11 @@ a.instagram:hover {
 	min-height: 50px;
 	display: block;
 }
-/* hover effects */
+
 .item > .social {
-	display: none;
 	padding-bottom: 10px;
 }
-.item:hover > .social {
-	display: block;
-}
-.item:hover .text-wrap .description {
-	display: none;
-}
+
 /* Carousel Control */
 .carousel-control {
 	margin-top: 0px;
