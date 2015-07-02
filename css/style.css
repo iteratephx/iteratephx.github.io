@@ -394,6 +394,19 @@ nav select {
 	margin: 0 auto;
 	padding: 0;
 }
+
+#intro-short {
+	background:url(../images/sedona.jpg) center center no-repeat fixed;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+	color: white;
+	min-height: 300px;
+	height: 375px;
+	margin: 0 auto;
+	padding: 0;
+}
 #about, #register, #speakers, #schedule, #workshops, #venue, #sponsors, #news, #twitter-feed, #contact, #newsletter {
 	padding: 100px 0 150px;
 	-webkit-box-shadow: 0 5px 0 rgba(30, 38, 44, 0.2) inset;
@@ -418,6 +431,10 @@ nav select {
 	background: #E7EBED;
 }
 #workshops {
+	background: #E7EBED;
+}
+
+#sessions {
 	background: #F2BC47;
 }
 #venue {
@@ -1258,17 +1275,11 @@ a.instagram:hover {
 	min-height: 50px;
 	display: block;
 }
-/* hover effects */
+
 .item > .social {
-	display: none;
 	padding-bottom: 10px;
 }
-.item:hover > .social {
-	display: block;
-}
-.item:hover .text-wrap .description {
-	display: none;
-}
+
 /* Carousel Control */
 .carousel-control {
 	margin-top: 0px;

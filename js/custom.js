@@ -182,7 +182,7 @@ $(document).ready(function () {
 	
 	// Google Map //
 	$('#map_canvas').gmap({
-		'center': new google.maps.LatLng(40.77288, -73.98299), // Change this to your desired latitude and longitude
+		'center': new google.maps.LatLng(33.286471, -111.886987), // Change this to your desired latitude and longitude
 		'zoom': 17,
 		'mapTypeControl': false,
 		'navigationControl': false,
@@ -220,7 +220,7 @@ $(document).ready(function () {
 			'icon': image
 		}).click(function () {
 			$('#map_canvas').gmap('openInfoWindow', {
-				'content': '<h4>Eventify</h4><p><strong>Downtown Conference Center</strong><br>Columbus Ave. New York, NY 10019 </p>'
+				'content': '<h4>Eventify</h4><p><strong>Infusionsoft Conference Center</strong><br>Infusionsoft 1260 S Spectrum Blvd Chandler, AZ 85286 </p>'
 			}, this);
 		});
 	});
