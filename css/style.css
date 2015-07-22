@@ -737,6 +737,9 @@ a.icon-wrap.small {
 .social a.icon-wrap:hover i {
 	color: #FFFFFF;
 }
+a.generic:hover {
+	background:#0b7bb6;
+}
 a.facebook:hover {
 	background:#3b5996;
 }
