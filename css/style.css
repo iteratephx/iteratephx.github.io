@@ -440,7 +440,7 @@ nav select {
 	background: #F2BC47;
 }
 #venue {
-	background: url(../images/backgrounds/venue.jpg) center center no-repeat fixed;
+	/*background: url(../images/backgrounds/venue.jpg) center center no-repeat fixed;*/
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
 	-o-background-size: cover;
@@ -553,7 +553,8 @@ hr.divider-short {
 	z-index: 1;
 }
 .white-header h4 {
-	color: #FFFFFF;
+	/* white header with reduced opacity */
+	color: rgba(255, 255, 255, 0.7);
 }
 /* Subheader */
 .subheader {
