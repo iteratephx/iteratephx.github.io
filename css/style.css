@@ -383,7 +383,7 @@ nav select {
 
 /* Sections */
 #intro {
-	background:url(../images/sedona.jpg) center center no-repeat fixed;
+	background:url(../images/sedona.optimized.jpg) center center no-repeat fixed;
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
 	-o-background-size: cover;
@@ -396,7 +396,7 @@ nav select {
 }
 
 #intro-short {
-	background:url(../images/sedona.jpg) center center no-repeat fixed;
+	background:url(../images/sedona.optimized.jpg) center center no-repeat fixed;
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
 	-o-background-size: cover;
