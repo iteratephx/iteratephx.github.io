@@ -388,6 +388,7 @@ nav select {
 	-moz-background-size: cover;
 	-o-background-size: cover;
 	background-size: cover;
+	background-color: #EF7247;
 	color: white;
 	min-height: 300px;
 	height: 660px;
@@ -401,6 +402,7 @@ nav select {
 	-moz-background-size: cover;
 	-o-background-size: cover;
 	background-size: cover;
+	background-color: #EF7247;
 	color: white;
 	min-height: 300px;
 	height: 375px;
