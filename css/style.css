@@ -1033,11 +1033,11 @@ a.instagram:hover {
 }
 /* Share Widget */
 .share-widget {
-	float: right;
+	/*float: right;*/
 	font-size: 14px;
 	padding: 0 15px;
 	position: relative;
-	top: -25px;
+	top: -10px;
 }
 .share-widget > a {
 	color: #85959e;
