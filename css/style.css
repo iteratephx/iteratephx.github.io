@@ -383,15 +383,12 @@ nav select {
 
 /* Sections */
 #intro {
-	background:url(../images/sedona.optimized.jpg) center center no-repeat fixed;
-	-webkit-background-size: cover;
-	-moz-background-size: cover;
-	-o-background-size: cover;
-	background-size: cover;
+	background:url(../images/logo/Iterate.PHX.icon-only.660x660.png) center center no-repeat fixed;
 	background-color: #EF7247;
 	color: white;
 	min-height: 300px;
 	height: 660px;
+	max-height: 680px;
 	margin: 0 auto;
 	padding: 0;
 }
