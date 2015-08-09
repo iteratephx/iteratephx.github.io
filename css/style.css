@@ -394,15 +394,14 @@ nav select {
 }
 
 #intro-short {
-	background:url(../images/sedona.optimized.jpg) center center no-repeat fixed;
-	-webkit-background-size: cover;
-	-moz-background-size: cover;
-	-o-background-size: cover;
-	background-size: cover;
+	background:url(../images/logo/Iterate.PHX.icon-only.660x660.png) top center no-repeat fixed;
+	-webkit-background-size: 350px 350px;
+	background-size: 350px 350px;
 	background-color: #EF7247;
 	color: white;
 	min-height: 300px;
-	height: 375px;
+	height: 350px;
+	max-height: 400px;
 	margin: 0 auto;
 	padding: 0;
 }
