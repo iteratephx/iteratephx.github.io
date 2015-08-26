@@ -9,5 +9,6 @@ out
 gen
 
 node_modules
-build
+performance
 bin
+.DS_Store
