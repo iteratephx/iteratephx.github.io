@@ -42,12 +42,12 @@ gulp.task('clean:performance', function () {
 gulp.task('default', function (callback) {
   runSequence('clean',
     'copy',
-    'scripts',
-    'styles',
-    'imagemin',
+    // 'styles', // STEP TWO
+    // 'scripts', // STEP THREE
+    // 'imagemin', // STEP FOUR
     'inject',
-    'inline',
-    'html',
+    // 'html', // STEP FIVE
+    // 'inline', // STEP SIX
     'serve',
     callback
   );
@@ -58,7 +58,9 @@ gulp.task('clean', function () {
 });
 
 gulp.task('copy', function () {
-  return gulp.src(['./src/**/*', '!./src/css/**/*', '!./src/js/**/*'])
+  return gulp.src(['./src/**/*']) // STEP ONE
+  // return gulp.src(['./src/**/*', '!./src/css/**/*']) // STEP TWO
+  // return gulp.src(['./src/**/*', '!./src/css/**/*', '!./src/js/**/*']) // STEP THREE
     .pipe(gulp.dest('./bin'));
 });
 
@@ -104,8 +106,14 @@ gulp.task('inline',function(){
 
 gulp.task('inject', function () {
   return gulp.src('./bin/index.html')
-    .pipe(inject(gulp.src(['./bin/**/*.css', './bin/**/*.js'], {read: false}), {ignorePath: 'bin', addRootSlash: false}))
+    .pipe(inject(gulp.src([
+      './bin/**/*.css',
+      './bin/js/jquery-2.1.4.min.js',
+      './bin/js/bootstrap.js',
+      './bin/js/*.js'], {read: false}), {ignorePath: 'bin', addRootSlash: false})) // STEP ONE AND TWO
+    //.pipe(inject(gulp.src(['./bin/**/*.css', './bin/**/*.js'], {read: false}), {ignorePath: 'bin', addRootSlash: false})) // STEP THREE
     .pipe(gulp.dest('./bin'));
+
 });
 
 gulp.task('serve', serve('bin'));
